@@ -1,0 +1,11 @@
+BRG001,Aqua,10
+BRG002,Vit,98
+BRG003,Momogi,12
+BRG004,Zeky,21
+BRG005,Basreng,23
+BRG006,Ale-Ale,9
+BRG007,Aoka,12
+BRG008,Padimas,55
+BRG009,Indomiie,40
+BRG010,Sarimi,30
+BRG011,Kecap,6
