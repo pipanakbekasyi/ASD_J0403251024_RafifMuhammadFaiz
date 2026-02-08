@@ -3,7 +3,7 @@
 # sub tugas 1: Membuat fungsi load data
 # ==================================================
 
-nama_file = "stok.txt"
+nama_file = "data_barang.txt"
 
 def baca_data_stok(nama_file):
     data_dict = {}  #inisialisasi
