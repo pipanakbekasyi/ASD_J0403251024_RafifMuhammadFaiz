@@ -35,14 +35,20 @@ class CircularSinglyLinkedList:
                 break
 
         print(f"Elemen {key} tidak ditemukan dalam Circular Linked List.")
+
+
 cll = CircularSinglyLinkedList()
 
-n = int(input("Masukkan jumlah elemen Circular Linked List: "))
+# input elemen langsung pakai koma
+data_input = input(
+    "Masukkan elemen Circular Linked List (pisahkan dengan koma, contoh: 3,7,12): "
+).strip()
 
-for i in range(n):
-    data = int(input(f"Masukkan elemen ke-{i+1}: "))
-    cll.insert_at_end(data)
+# kalau user langsung enter, list tetap kosong
+if data_input:
+    for data in data_input.split(","):
+        cll.insert_at_end(int(data.strip()))
 
-# Tetap jalan walaupun n = 0
+# Tetap jalan walaupun list kosong
 cari = int(input("Masukkan elemen yang ingin dicari: "))
 cll.search(cari)
