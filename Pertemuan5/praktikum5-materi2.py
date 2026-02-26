@@ -17,6 +17,7 @@ def hitung(n):
         print("Selesai")
         return
     
+    #rekursif case
     print("Masuk: ", n)
     hitung(n-1)
     print("Keluar: ", n)
