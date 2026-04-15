@@ -1,0 +1,7 @@
+BP001,Cerita Bambang, 70000
+LB002,Laut Bercerita, 120000
+SB003,Seni Bodoamat, 100000
+PG004,Palu Gada, 200000
+TC005,Tuntunan Sholat, 15000
+KD006,Kumpulan Doa, 10000
+MT007,Matematika Terapan, 5000
